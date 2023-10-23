@@ -75,6 +75,7 @@ int main()
     UART1_DefInit();
 #endif
     PRINT("%s\n", VER_LIB);
+    PRINT("YOLO\n");
     CH57X_BLEInit();
     HAL_Init();
     USB_DeviceInit();
